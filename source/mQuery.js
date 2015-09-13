@@ -1,3 +1,6 @@
+/* mQuery - Copyright (c) 2015 rtenshi (MIT) - https://github.com/rtenshi/mQuery/ 
+ * Feel free to distribute, use or modify this software. Any isues please post at the GitHub
+ */
 'use strict';
 var media = {
     DB: {},
