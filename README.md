@@ -1,6 +1,6 @@
 # mQuery
 
-mQuery is a jQuery Library (requires jQuery), which fires javascript functions based on the change of the CSS media queries, so that javascripts can be target per Viewport and reduce the necessity to create window.resize functions.
+mQuery is a javascript Library, which fires javascript functions based on the change of the CSS media queries, so that javascripts can be target per Viewport and reduce the necessity to create window.resize functions.
 To achieve it, it is necessarty to configure the CSS media queries, giving the HTML element a custom font-family, for example:
 ```
 @media screen and (min-width: 768px){
@@ -14,6 +14,7 @@ The real font-family should be bounded at the body bounded.
 
 
 #Now we go to the Javascript...
+To install this Library just add it using a script tag.
 
 mQuery can be called when the document is ready, by the following command:
 
@@ -42,4 +43,4 @@ the order is irrelevant.
 
 If you still have questions, sugestions or improvement, fell free to contact me here.
 
-#Thanks at DaPedro (info@dapedro.de) for the idea and the first version of the J77 Responsive
+#Thanks at DaPedro (info@dapedro.de) for the idea and the first version of this script, called 'J77 Responsive'
