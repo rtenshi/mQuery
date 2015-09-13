@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="" onchange='console.log("aaaa")'>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./lib/qunit-1.19.0.css">
+    <script src="./lib/qunit-1.19.0.js"></script>
+</head>
+<style>
+    @media screen and (max-width: 767px) {
+        html { font-family: "size-xs"}
+        #test { height: 30px; width: 30px; border: 1px solid black}
+    }
+    @media screen and (min-width: 768px) and (max-width: 921px) {
+        html { font-family: "size-sm"}
+        #test { height: 30px; width: 30px;background-color: aqua}
+    }
+    @media screen and (min-width: 922px) and (max-width: 1199px) {
+        html { font-family: "size-md"}
+        #test { height: 30px; width: 30px;background-color: blueviolet}
+    }
+    @media screen and (min-width: 1200px) {
+        html { font-family: "size-lg"}
+        #test { height: 30px; width: 30px;background-color: blue}
+    }
+</style>
+<body>
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+    
+    <div id="test"></div>
+    
+    <script src="./source/mQuery.js"></script>
+    <script src="./test/mQuery.spec.js"></script>
+</body>
+</html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
