@@ -1,0 +1,5 @@
+author = "Raffael Lima - rTenshi"
+github = "https://github.com/rtenshi/mquery"
+homepage = "http://github.com/rtenshi/mquery/"
+description = "mQuery is a trigger for javascript functions based on the CSS media queries, to provide more control over the Javascript."
+mainfile = "mQuery.min.js"
