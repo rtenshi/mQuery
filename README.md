@@ -9,6 +9,8 @@ To achieve it, it is necessarty to configure the CSS media queries, giving the H
   }
 }
 ```
+<a href="https://jsfiddle.net/rtenshi/rnL66af4/">jsFiddle example</a> (by the jsFiddle is not automatic fired, you can see a production example <a href="http://rlima.de/mquery/"> hier</a> using the same code as in the jsFiddle.
+
 (the 'xs' is to symbolize the xs size from bootstrap, but any text can be used as anchor for the javascript)
 The real font-family should be bounded at the body bounded.
 
@@ -32,7 +34,6 @@ mQuery have the following functions:
 <p><strong>.enter(callback) :</strong> callback is called when the media query is entered.</p>
 <p><strong>.update(callback) :</strong> callback is called once after the media query is entered, and when the window is resized, a setTimeout is already pre-configured (200ms).</p>
 <p><strong>.leave(callback) :</strong> called when the media query is left, and before the 'enter' function is called.</p>
-
 The calls can be chainned to make easer the control:
 
 ```
@@ -40,6 +41,8 @@ mQuery('xs').enter(function1).enter(function2).leave(function3).update(function4
 ```
 
 the order is irrelevant.
+
+<p><strong>media.timing</strong> (init): interval in ms to fire the resize function</p>
 
 If you still have questions, sugestions or improvement, fell free to contact me here.
 
