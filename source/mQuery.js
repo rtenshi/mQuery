@@ -82,7 +82,8 @@ Object.prototype.leave = function(func) {
 // Callers
 media.setMedia(); // Detect on Start
 window.addEventListener('resize', media.onWindowResize);
-document.addEventListener('load',function() {
+window.onload = function() {
+    media.setMedia();
     media.doAction(media.actualMedia, 'e');
     media.doAction(media.actualMedia, 'u');
-}, true);
+};
